@@ -44,7 +44,7 @@ func TestNewExporter(t *testing.T) {
 			},
 			DeltaTTL: 3600,
 			HistConfig: config.HistogramConfig{
-				Mode:         string(translator.HistogramModeNoBuckets),
+				Mode:         string(translator.HistogramModeDistributions),
 				SendCountSum: true,
 			},
 		},

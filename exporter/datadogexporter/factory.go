@@ -77,7 +77,7 @@ func createDefaultConfig() config.Exporter {
 				InstrumentationLibraryMetadataAsTags: false,
 			},
 			HistConfig: ddconfig.HistogramConfig{
-				Mode:         "nobuckets",
+				Mode:         "distributions",
 				SendCountSum: true,
 			},
 		},
