@@ -6,7 +6,7 @@ require (
 	github.com/leoluk/perflib_exporter v0.1.0
 	github.com/open-telemetry/opentelemetry-collector-contrib/internal/coreinternal v0.35.0
 	github.com/open-telemetry/opentelemetry-collector-contrib/receiver/scraperhelper v0.35.0
-	github.com/shirou/gopsutil v3.21.8+incompatible
+	github.com/shirou/gopsutil v3.21.11+incompatible
 	github.com/stretchr/testify v1.7.0
 	go.opentelemetry.io/collector v0.35.1-0.20210917100632-e056aa8c4e20
 	go.opentelemetry.io/collector/model v0.35.1-0.20210917100632-e056aa8c4e20
@@ -16,10 +16,9 @@ require (
 )
 
 require (
-	github.com/StackExchange/wmi v1.2.1 // indirect
 	github.com/davecgh/go-spew v1.1.1 // indirect
 	github.com/fsnotify/fsnotify v1.4.9 // indirect
-	github.com/go-ole/go-ole v1.2.5 // indirect
+	github.com/go-ole/go-ole v1.2.6 // indirect
 	github.com/gogo/protobuf v1.3.2 // indirect
 	github.com/golang/groupcache v0.0.0-20210331224755-41bb18bfe9da // indirect
 	github.com/golang/protobuf v1.5.2 // indirect
@@ -32,6 +31,7 @@ require (
 	github.com/stretchr/objx v0.1.1 // indirect
 	github.com/tklauser/go-sysconf v0.3.5 // indirect
 	github.com/tklauser/numcpus v0.2.2 // indirect
+	github.com/yusufpapurcu/wmi v1.2.2 // indirect
 	go.opencensus.io v0.23.0 // indirect
 	go.opentelemetry.io/otel v1.0.0-RC3 // indirect
 	go.opentelemetry.io/otel/metric v0.23.0 // indirect
