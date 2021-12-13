@@ -12,10 +12,10 @@ require (
 	github.com/stretchr/testify v1.7.0
 	go.opentelemetry.io/collector v0.35.1-0.20210917100632-e056aa8c4e20
 	go.opentelemetry.io/collector/model v0.35.1-0.20210917100632-e056aa8c4e20
-	go.opentelemetry.io/contrib/instrumentation/google.golang.org/grpc/otelgrpc v0.23.0
-	go.opentelemetry.io/otel v1.0.0-RC3
-	go.opentelemetry.io/otel/trace v1.0.0-RC3
-	google.golang.org/grpc v1.40.0
+	go.opentelemetry.io/contrib/instrumentation/google.golang.org/grpc/otelgrpc v0.28.0
+	go.opentelemetry.io/otel v1.3.0
+	go.opentelemetry.io/otel/trace v1.3.0
+	google.golang.org/grpc v1.42.0
 	google.golang.org/protobuf v1.27.1
 )
 
@@ -25,6 +25,8 @@ require (
 	cloud.google.com/go v0.81.0 // indirect
 	github.com/davecgh/go-spew v1.1.1 // indirect
 	github.com/fsnotify/fsnotify v1.4.9 // indirect
+	github.com/go-logr/logr v1.2.1 // indirect
+	github.com/go-logr/stdr v1.2.0 // indirect
 	github.com/gogo/protobuf v1.3.2 // indirect
 	github.com/golang/groupcache v0.0.0-20210331224755-41bb18bfe9da // indirect
 	github.com/golang/protobuf v1.5.2 // indirect
@@ -35,7 +37,6 @@ require (
 	github.com/pmezard/go-difflib v1.0.0 // indirect
 	github.com/spf13/cast v1.4.1 // indirect
 	go.opencensus.io v0.23.0 // indirect
-	go.opentelemetry.io/contrib v0.23.0 // indirect
 	go.opentelemetry.io/otel/metric v0.23.0 // indirect
 	go.uber.org/atomic v1.9.0 // indirect
 	go.uber.org/multierr v1.6.0 // indirect
