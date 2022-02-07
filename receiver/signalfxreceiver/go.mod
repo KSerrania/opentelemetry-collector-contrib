@@ -7,7 +7,7 @@ require (
 	github.com/open-telemetry/opentelemetry-collector-contrib/exporter/signalfxexporter v0.35.0
 	github.com/open-telemetry/opentelemetry-collector-contrib/internal/coreinternal v0.35.0
 	github.com/open-telemetry/opentelemetry-collector-contrib/internal/splunk v0.35.0
-	github.com/signalfx/com_signalfx_metrics_protobuf v0.0.2
+	github.com/signalfx/com_signalfx_metrics_protobuf v0.0.3
 	github.com/stretchr/testify v1.7.0
 	go.opencensus.io v0.23.0
 	go.opentelemetry.io/collector v0.35.1-0.20210917100632-e056aa8c4e20
