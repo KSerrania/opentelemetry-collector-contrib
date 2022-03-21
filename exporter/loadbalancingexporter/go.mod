@@ -5,7 +5,7 @@ go 1.17
 require (
 	cloud.google.com/go v0.83.0 // indirect
 	github.com/open-telemetry/opentelemetry-collector-contrib/pkg/batchpersignal v0.35.0
-	github.com/stretchr/testify v1.7.0
+	github.com/stretchr/testify v1.7.1
 	go.opencensus.io v0.23.0
 	go.opentelemetry.io/collector v0.35.1-0.20210917100632-e056aa8c4e20
 	go.opentelemetry.io/collector/model v0.35.1-0.20210917100632-e056aa8c4e20
