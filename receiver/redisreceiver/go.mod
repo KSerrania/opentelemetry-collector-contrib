@@ -8,7 +8,7 @@ require (
 	github.com/onsi/gomega v1.10.2 // indirect
 	github.com/open-telemetry/opentelemetry-collector-contrib/internal/common v0.35.0
 	github.com/open-telemetry/opentelemetry-collector-contrib/internal/interval v0.35.0
-	github.com/stretchr/testify v1.7.0
+	github.com/stretchr/testify v1.7.1
 	go.opentelemetry.io/collector v0.35.1-0.20210917100632-e056aa8c4e20
 	go.opentelemetry.io/collector/model v0.35.1-0.20210917100632-e056aa8c4e20
 	go.uber.org/zap v1.19.1
