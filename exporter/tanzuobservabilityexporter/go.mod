@@ -5,8 +5,8 @@ go 1.17
 require (
 	github.com/google/uuid v1.3.0
 	github.com/open-telemetry/opentelemetry-collector-contrib/internal/coreinternal v0.35.0
-	github.com/stretchr/testify v1.7.0
-	github.com/wavefronthq/wavefront-sdk-go v0.9.9
+	github.com/stretchr/testify v1.7.1
+	github.com/wavefronthq/wavefront-sdk-go v0.9.11
 	go.opentelemetry.io/collector v0.35.1-0.20210917100632-e056aa8c4e20
 	go.opentelemetry.io/collector/model v0.35.1-0.20210917100632-e056aa8c4e20
 	go.uber.org/zap v1.19.1
