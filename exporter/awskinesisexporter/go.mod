@@ -6,15 +6,16 @@ require (
 	github.com/aws/aws-sdk-go v1.40.42
 	github.com/golang/protobuf v1.5.2
 	github.com/open-telemetry/opentelemetry-collector-contrib/pkg/translator/jaeger v0.35.0
-	github.com/stretchr/testify v1.7.0
+	github.com/stretchr/testify v1.8.0
 	go.opentelemetry.io/collector v0.35.1-0.20210917100632-e056aa8c4e20
 	go.opentelemetry.io/collector/model v0.35.1-0.20210917100632-e056aa8c4e20
-	go.uber.org/zap v1.19.1
+	go.uber.org/zap v1.23.0
 	google.golang.org/protobuf v1.27.1
 )
 
 require (
 	github.com/apache/thrift v0.15.0 // indirect
+	github.com/benbjohnson/clock v1.1.0 // indirect
 	github.com/cenkalti/backoff/v4 v4.1.1 // indirect
 	github.com/davecgh/go-spew v1.1.1 // indirect
 	github.com/fsnotify/fsnotify v1.5.1 // indirect
@@ -41,7 +42,7 @@ require (
 	google.golang.org/genproto v0.0.0-20210909211513-a8c4777a87af // indirect
 	google.golang.org/grpc v1.40.0 // indirect
 	gopkg.in/yaml.v2 v2.4.0 // indirect
-	gopkg.in/yaml.v3 v3.0.0-20210107192922-496545a6307b // indirect
+	gopkg.in/yaml.v3 v3.0.1 // indirect
 )
 
 replace github.com/open-telemetry/opentelemetry-collector-contrib/pkg/translator/jaeger => ../../pkg/translator/jaeger
